@@ -31,7 +31,7 @@ def webhook():
         return jsonify({"ok": True})
 
     if user_message == "/start":
-        send_message(chat_id, "こんにちは。LP's Botです。質問をどうぞ。")
+        send_message(chat_id, "こんにちは。@Lilianf_botです。質問をどうぞ。")
         return jsonify({"ok": True})
 
     try:
